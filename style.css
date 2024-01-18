@@ -260,6 +260,7 @@ line-height: 30px; /* 214.286% */
 }
 
 .third-div{
+  margin-bottom: 150px;
   padding: 0 175px;
   padding-top: 80px;
   background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
@@ -366,7 +367,7 @@ margin-bottom: auto;
 }
 
 .third-div > div div span, #free{
-  color: #0B132A;
+color: #0B132A;
 text-align: center;
 font-size: 25px;
 font-style: normal;
@@ -381,4 +382,152 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 margin-bottom: 10px;
+}
+
+.fourth-div{
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.fourth-div h1{
+width: 383.406px;
+color: #0B132A;
+text-align: center;
+margin: auto;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+margin-bottom: 20px;
+}
+
+.fourth-div p{
+  width: 555px;
+  color: #4F5665;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin: auto;
+margin-bottom: 155px;
+}
+
+.fourth-div span{
+  color: #4F5665;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+}
+
+.fifth-div{
+  padding: 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 124px;
+}
+
+.sixth-div > h1{
+color: #0B132A;
+text-align: center;
+font-size: 35px;
+font-style: normal;
+font-weight: 500;
+line-height: 50px;
+width: 447.805px;
+margin: auto;
+margin-bottom: 20px;
+}
+
+.sixth-div > p{
+  color: #4F5665;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+width: 555px;
+margin: auto;
+margin-bottom: 90px;
+}
+
+.testimonials-container{
+  padding: 0 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials{
+  width: 400px;
+height: 230px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 2px solid #DDD;
+padding: 30px;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.testimonials-upper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonials-upper div:nth-child(1){
+  display: flex;
+  
+}
+
+.testimonials-upper div:nth-child(1) > div h1{
+color: #0B132A;
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+/* line-height: 30px; */
+}
+
+.testimonials-upper div:nth-child(1) > div p{
+  color: #4F5665;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+text-align: left;
+/* line-height: 30px; */
+}
+
+.testimonials-upper div:nth-child(1) img{
+  margin-right: 20px;
+}
+
+.testimonials-upper > div:nth-child(2){
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonials-upper div:nth-child(2) p{
+  color: #0B132A;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+
+.testimonials-upper div:nth-child(2) i{
+  color: #FEA250;
+  font-size: 12px;
+}
+
+.testimonials-lower p{
+  color: #0B132A;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
 }
